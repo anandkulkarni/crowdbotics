@@ -103,8 +103,8 @@ p {
 
 .hero {
   height: 100vh;
-  background-image: -webkit-linear-gradient(135deg, rgba(187, 41, 41, .59), hsla(0, 0%, 100%, 0) 78%), url("http://uploads.webflow.com/58c2dd8fa3d5406c39a3fb53/58c58b030a9e894d67f534c9_joanna-kosinska-small.jpg");
-  background-image: linear-gradient(315deg, rgba(187, 41, 41, .59), hsla(0, 0%, 100%, 0) 78%), url("http://uploads.webflow.com/58c2dd8fa3d5406c39a3fb53/58c58b030a9e894d67f534c9_joanna-kosinska-small.jpg");
+  background-image: -webkit-linear-gradient(135deg, rgba(187, 41, 41, .59), hsla(0, 0%, 100%, 0) 78%), url("joanna-kosinska-small.jpg");
+  background-image: linear-gradient(315deg, rgba(187, 41, 41, .59), hsla(0, 0%, 100%, 0) 78%), url("joanna-kosinska-small.jpg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
