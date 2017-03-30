@@ -461,6 +461,7 @@ p {
   transition: border 200ms ease, color 200ms ease;
   color: #ffe696;
   font-size: 16px;
+  text-decoration: none;
 }
 
 .button.big:hover {
@@ -564,6 +565,13 @@ p {
   padding-left: 15px;
   float: left;
   clear: none;
+}
+
+@media (min-width: 768px){
+	.modal-dialog {
+	    width: 80% !important;
+	    margin: 20px auto !important;
+	}
 }
 
 @media (max-width: 991px) {
@@ -670,5 +678,26 @@ p {
     margin-right: 0px;
     margin-bottom: 12px;
     margin-left: 0px;
+  }
+}
+
+@media (min-width: 630px) and (max-width: 767px){
+  iframe {
+    height: 1110px;
+  }
+}
+@media (min-width: 410px) and (max-width: 629px){
+  iframe {
+    height: 1180px;
+  }
+}
+@media (min-width: 355px) and (max-width: 409px){
+  iframe {
+    height: 1250px;
+  }
+}
+@media (max-width: 354px){
+  iframe {
+    height: 1350px;
   }
 }
